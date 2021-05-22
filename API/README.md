@@ -12,7 +12,6 @@
 ### Overwatch
 
 ```shell
-cd overwatch-api
 npm install --save overwatch-api
 
 node overwatch_main.js

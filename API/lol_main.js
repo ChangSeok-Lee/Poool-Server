@@ -7,7 +7,7 @@ var riotRequest = new RiotRequest(api_key);
 // 'summoner' is a string to identify the method being used currently
 // See note about rate-limiting in the README.
 // Also see https://developer.riotgames.com/rate-limiting.html#method-headers
-riotRequest.request('euw1', 'summoner', '/lol/summoner/v4/summoners/by-name/hideonbush', function(err, data) {
+riotRequest.request('kr', 'summoner', '/lol/summoner/v4/summoners/by-name/hideonbush', function(err, data) {
   if (err) console.error(err);
   else console.log(data);
 });
